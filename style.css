@@ -26,11 +26,11 @@ body {
 
 .nav-container {
     background:  transparent;
-    height: 50px;
+    height: 200px;
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
 }
 
