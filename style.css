@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: 'academyroughcregular';
+    src: url('copyfonts.com_academyroughc-opentype-webfont.woff2') format('woff2'),
+         url('copyfonts.com_academyroughc-opentype-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quarantype_hopscotchregular';
+    src: url('hopscotch_by_zetafonts-webfont.woff2') format('woff2'),
+         url('hopscotch_by_zetafonts-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #c8ff3d;
+}
