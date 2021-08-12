@@ -1,68 +1,35 @@
 *{
-    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
-@font-face {
-    font-family: 'academyroughcregular';
-    src: url('copyfonts.com_academyroughc-opentype-webfont.woff2') format('woff2'),
-         url('copyfonts.com_academyroughc-opentype-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'quarantype_hopscotchregular';
-    src: url('hopscotch_by_zetafonts-webfont.woff2') format('woff2'),
-         url('hopscotch_by_zetafonts-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
+.header{
+    min-height: 100vh;
+    width: 100%;
     background-color: #c8ff3d;
+    background-size: cover;
+    position: relative;
 }
 
-/* Navigations */
-
-.nav-container {
-    background:  transparent;
-    height: 200px;
-}
-
-.wrapper {
-    max-width: 1600px;
-    max-height: 75px;
-    margin: auto;
-}
-
-nav {
+nav{
     display: flex;
-    align-items: center;
+    padding: 2% 6%;
     justify-content: space-between;
+    align-items: center;
 }
 
-nav ul {
-    display: flex;
+nav img{
+    width: 75px;
 }
-
-nav .logo {
-    font-family: quarantype_hopscotchregular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 50px;
-    color: #000066;
-    margin-left: 50px;
+.nav-links{
+    flex: 1;
+    text-align: right;
 }
-
-.nav-items li {
+.nav-links ul li{
     list-style: none;
-    margin-right: 50px;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
 }
-
-.nav-items li a {
-    color: #000066;
-    font-size: 20px;
-    font-family: "Helvetica", sans-serif;
-    text-decoration: none;
+.nav-links ul li a{
+    color: black;
 }
