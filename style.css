@@ -21,3 +21,47 @@
 body {
     background-color: #c8ff3d;
 }
+
+/* Navigations */
+
+.nav-container {
+    background: #FFFCDE;
+    height: 50px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    font-family: quarantype_hopscotchregular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000066;
+    margin-left: 50px;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav-items li a {
+    color: #000066;
+    font-size: 20px;
+    font-family: "Helvetica", sans-serif;
+    text-decoration: none;
+}
