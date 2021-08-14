@@ -223,6 +223,7 @@ nav{
     overflow: hidden;
     background-color: transparent;
     position: relative;
+    width: 100%;
   }
 .topnav img{
     width: 12%;
@@ -254,4 +255,7 @@ nav{
 .active{
     background-color: transparent;
     color: white;
+}
+.footer-basic{
+    width: 100%;
 }}
